@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ginn Lee</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+        --bs-font-sans-serif: "Microsoft JhengHei", 微軟正黑體, system-ui,
+          -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+          "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      .bg-cover {
+        /* 正中央的距離 */
+        background-position: center center;
+        /* 覆蓋蓋滿整個區塊 */
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="py-3 text-center border-bottom">
+        <a href="" class="h2 link-dark text-decoration-none">Ginn's blog</a>
+      </header>
+
+      <div class="overflow-auto py-1">
+        <nav class="nav justify-content-between flex-nowrap text-nowrap">
+          <a class="nav-link link-secondary" href="">HTML</a>
+          <a class="nav-link link-secondary" href="">CSS</a>
+          <a class="nav-link link-secondary" href="">JavaScript</a>
+          <a class="nav-link link-secondary" href="">Backend</a>
+          <a class="nav-link link-secondary" href="">技術</a>
+          <a class="nav-link link-secondary" href="">設計</a>
+          <a class="nav-link link-secondary" href="">美食</a>
+          <a class="nav-link link-secondary" href="">旅行</a>
+          <a class="nav-link link-secondary" href="">創業</a>
+          <a class="nav-link link-secondary" href="">烏白講</a>
+        </nav>
+      </div>
+
+      <div
+        class="p-4 p-md-5 mb-4 text-white rounded-3 bg-cover"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1521802077481-0d9be31078ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80);
+        "
+      >
+        <div class="col-md-6">
+          <h1 class="display-5 fst-italic mt-3">深海中隱藏的秘密</h1>
+          <p class="lead my-3">
+            在這科技時代，技術猶如深海般的深，想要快速練起來的方法是有的，只是當中的技巧又有誰能以最短的時間掌握那所謂需要學會的技術呢？
+          </p>
+          <p class="lead mb-0"><a class="text-white" href="#">繼續閲讀</a></p>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-lg-2 mb-5">
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col">
+              <div class="p-4 d-flex flex-column h-100">
+                <strong class="d-inline-block mb-2 text-primary">設計</strong>
+                <h3 class="mb-0">創造力不等於想象力</h3>
+                <div class="mb-1 text-muted">3 月 22 日</div>
+                <p class="card-text mb-auto">
+                  創造力發展的表現的因素可分為內在與外在因素兩大類。內在因素包括:心智能力、思考風風.
+                  格、知識、人格與動機等項。外在因素則有:父母特性與期望、家庭環境...
+                </p>
+                <a href="#" class="stretched-link">繼續閲讀</a>
+              </div>
+            </div>
+            <div
+              class="col-4 d-none d-lg-block bg-cover"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1508666709797-f0bb3d96324d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1161&q=80);
+              "
+            ></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col">
+              <div class="p-4 d-flex flex-column h-100">
+                <strong class="d-inline-block mb-2 text-primary">美食</strong>
+                <h3 class="mb-0">生活不是吃，就是在找好吃的</h3>
+                <div class="mb-1 text-muted">3 月 22 日</div>
+                <p class="card-text mb-auto">
+                  今天到台中肉桂卷網紅餐廳打卡，吃了藍莓蛋糕，超好吃 der...
+                </p>
+                <a href="#" class="stretched-link">繼續閲讀</a>
+              </div>
+            </div>
+            <div
+              class="col-4 d-none d-lg-block bg-cover"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1636972677998-d76f527e5576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=782&q=80);
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-md-5">
+        <div class="col-md-8">
+          <article>
+            <h2>Bootstrap5 自學必備</h2>
+            <p>2022 年 1 月 <a href="#">六角</a></p>
+            <p>
+              <img
+                class="img-fluid"
+                src="https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/blog%2F2021%2F10%2F25%2Fog.png?alt=media&amp;token=787ab669-10c4-4456-b8d1-9354814a43d4"
+                alt=""
+              />
+            </p>
+            <p>大家好，我是卡斯伯老師～</p>
+            <p>請問你切版時，是用哪一個方式在進行呢？</p>
+            <ul>
+              <li>手刻至上，不使用框架或任何工具</li>
+              <li>使用 Sass 等工具，透過相關方法優化結構</li>
+              <li>使用框架作為基底，並自行撰寫 CSS 調整樣式</li>
+              <li>使用框架搭配 Sass 進行整合，大幅加速開發速度</li>
+            </ul>
+            <h2 id="從純-CSS-轉至工具至上的開發型態">
+              <a
+                href="#從純-CSS-轉至工具至上的開發型態"
+                class="headerlink"
+                title="從純 CSS 轉至工具至上的開發型態"
+              ></a
+              >從純 CSS 轉至工具至上的開發型態
+            </h2>
+            <p>
+              過去，我也是使用純 CSS
+              的方式在撰寫網頁，不過隨著工具越來越豐富，我也從純 CSS 慢慢轉變為
+              Sass 及 Bootstrap 整合的方式進行開發，明顯的差異點在於：
+            </p>
+            <ul>
+              <li>
+                <b>CSS 行數大幅減少</b>：以前動輒上千行的
+                CSS，現在只需要調整變數就能完成，可以專注在新功能的開發
+              </li>
+              <li>
+                <b>協作更為容易</b>：每個人撰寫的習慣不同，就如 “按鈕”
+                有人習慣稱為 <code>button</code> 有些人則習慣使用
+                <code>btn</code>
+                ，甚至同一個人每個階段的撰寫方式都不一樣。透過框架命名、架構的習慣會更有一致性。
+              </li>
+              <li>
+                <b>不需要每次撰寫相同的模組</b
+                >：同樣的按鈕每個網站都需要用到，如果每次都重新撰寫將會花去不少時間，就算是
+                copy &amp; paste
+                都有可能出錯，與其如此不如就直接引入，快速又可減少錯誤～
+              </li>
+            </ul>
+            <p>
+              許多細微的差異下，從過去一個網站需花費兩週，到現在只需要 1 ~ 2
+              天就可完成相同品質的網站，剩下的時間可以用來優化更進階的視覺效果，長時間累積下來自然能夠有超越其他人的表現。
+            </p>
+            <p>來自一段學長姐的話：<br /></p>
+            <p class="border-left border-dark pl-3">
+              切版一定要快，如果連 CSS 都搞不定怎麼能做好專業的前端工程師呢？
+            </p>
+            <p></p>
+
+            <img
+              class="img-fluid"
+              src="https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/blog%2F2021%2F10%2F25%2Fblock.jpg?alt=media&amp;token=5bbcb44d-3982-4128-9452-6309c31c23b9"
+              class="mx-auto"
+              style="width: 60%"
+            />
+
+            <h2 id="Bootstrap-5-網頁開發整合術">
+              <a
+                href="#Bootstrap-5-網頁開發整合術"
+                class="headerlink"
+                title="Bootstrap 5 網頁開發整合術"
+              ></a
+              >Bootstrap 5 網頁開發整合術
+            </h2>
+            <ul>
+              <li>
+                聽說 Bootstrap 都長一樣，怎麼可能符合每個網站的需求？<br />→
+                實戰都會透過變數客製化，調整成符合每個網站樣式及需求啦
+              </li>
+              <li>
+                Sass 環境好像很難搞，學的時間該不會就抵掉之後節省的時間？<br />→
+                課程中只花 3 分鐘介紹如何安裝 Sass
+                環境，只要文字編輯器不須另外安裝工具，相信你用一次就上癮
+              </li>
+              <li>
+                上述介紹了 Bootstrap 5 的一些特點，但這個工具真的有這麼好嗎？<br />→
+                來參加活動，我現場示範給你看
+              </li>
+            </ul>
+            <p>
+              接下來，我們預計在 10/27 進行「 Bootstrap 5
+              網頁開發整合術」的課程介紹，歡迎你提前發問，我將在直播過程中一一回覆。
+            </p>
+            <ul>
+              <li>
+                <a
+                  href="https://app.sli.do/event/kzvqzwew"
+                  target="_blank"
+                  rel="noopener"
+                  >Slido 提前發問區</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://youtu.be/aOqpcbT99g8"
+                  target="_blank"
+                  rel="noopener"
+                  >直播連結</a
+                >
+              </li>
+              <li>直播時間：10/27 20:00</li>
+              <li>
+                訂閱課程通知搶優惠（<a
+                  href="https://r.botbonnie.com/j4Pq6"
+                  target="_blank"
+                  rel="noopener"
+                  >LINE</a
+                >）
+              </li>
+            </ul>
+
+            <p>想要即時收到 Bootstrap 5 課程活動訊息嗎？趕快訂閱起來！</p>
+            <a
+              href="https://r.botbonnie.com/j4Pq6"
+              target="_blank"
+              class="btn btn-outline-dark"
+              ><i class="fas fa-bell"></i> 訂閱課程通知</a
+            >
+            <a
+              href="https://youtu.be/aOqpcbT99g8"
+              target="_blank"
+              class="btn btn-primary"
+              ><i class="fas fa-video"></i> 準時看直播</a
+            >
+          </article>
+        </div>
+
+        <div class="col-md-4 d-none d-lg-block">
+          <div class="sticky-top" style="top: 16px">
+            <div class="p-4 bg-light rounded">
+              <h4>關於我</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+                consequuntur aliquid quisquam unde! Fugiat, consectetur placeat?
+                Amet assumenda qui sed.
+              </p>
+            </div>
+            <div class="p-4">
+              <h4>封存</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+                <li><a href="#">2022年 月</a></li>
+              </ol>
+            </div>
+            <div class="p-4">
+              <h4>追蹤我</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light border-top py-4 mt-5 text-center">
+      <p>Bootstrap 5 Blog</p>
+      <p><a href="#">Back to top</a></p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
